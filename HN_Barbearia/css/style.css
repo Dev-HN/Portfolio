@@ -42,32 +42,18 @@ header .caixa{
     letter-spacing: 2px;
 }
 
-.container {
+main {
     display: block;
     padding: 25px;
 }
 
-.conteudoA {
+.container {
     background: #fff;
     display: block;
     width: 100%;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.card {
-    display: inline-block;
-    width: 30%;
-    height: auto;
-    padding: 10px 15px;
-    margin: 5px;
-    color: #000;
-    font-weight: bold;
-    vertical-align: top;
-    border-radius: 5px;
-    box-shadow: 1px -1px 5px #ccc;
-    background: linear-gradient(0deg, lightcyan, lightblue);
 }
 
 .titulo-centralizado {
@@ -79,17 +65,34 @@ header .caixa{
     background: repeating-linear-gradient(45deg, #dbdbdb, transparent 1px) #ccc;
 }
 
+.card {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    padding: 10px 15px;
+    margin: 5px;
+    color: #000;
+    font-weight: bold;
+    vertical-align: top;
+    border-radius: 5px;
+    box-shadow: 1px -1px 5px #ccc;
+    background: #FFF;
+}
+
+.title-card-center {
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #222;
+}
+
 footer {
     display: block;
-    width: 100%;
-    height: 50px;
+    width: 100vw;
     padding: 10px 30px;
     font-size: 12px;
     font-weight: bold;
-    line-height: 6px;
     text-align: center;
     color: #ccc;
-    flex-wrap: wrap;
     box-sizing: border-box;
     bottom: 0;
     background: repeating-linear-gradient(45deg, #555, transparent 1px) #222;
