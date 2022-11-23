@@ -80,16 +80,17 @@ header .caixa{
 }
 
 footer {
-    background: repeating-linear-gradient(45deg, #555, transparent 1px) #222;
-    bottom: 0;
-    color: #ccc;
     display: block;
-    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 10px 30px;
     font-size: 12px;
     font-weight: bold;
     line-height: 6px;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 10px 30px;
     text-align: center;
+    color: #ccc;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    bottom: 0;
+    background: repeating-linear-gradient(45deg, #555, transparent 1px) #222;
 }
