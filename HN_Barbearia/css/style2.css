@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+header {
+    border-bottom: 2px solid #000;
+    /* background: #ececee; */
+    background-image: url(../img/bg.jpg);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.img-logo img {
+    /* mix-blend-mode: color-burn; */
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.menu-item {
+    padding: 5px;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-item a {
+    text-decoration: none;
+    /* color: rgb(104, 104, 104); */
+    color: #cecece;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+    color: #cc0000;
+}
+
+.container {
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/04/12/04/26/blood-pressure-3312513_960_720.png);
+    background-repeat: no-repeat; */
+    padding: 0px 50px;
+}
+
+.img-topo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-principal {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #cc0000;
+    margin: 20px 0;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+article img {
+    margin: 20px 0;
+    width: 500px;
+    height: 200px;
+}
+
+
+.rodape {
+    height: 100px;
+    background-image: url(../img/bg.jpg);
+}
