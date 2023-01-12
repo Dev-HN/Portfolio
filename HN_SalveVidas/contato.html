@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HN - Salve Vidas - Contato</title>
     <style>
+        * {
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
         .frm-contato {
             margin: 0 auto;
             border-radius: 30px 10px;
             border: 2px solid #c3c3c3;
-            box-shadow: 5px -5px 2px rgba(105, 0, 0, 0.6)
+            box-shadow: 5px -5px 2px rgba(105, 0, 0, 0.6);
+            flex-direction: column;
+        }
+
+        .textBox {
+            background: transparent url(data:image/png;base64,iVBORw0);
+            border: none;
+            border-left: 1px solid #aa0000;           
+            border-bottom: 1px solid #aa0000;
+            color: #000;
         }
     </style>
 </head>
@@ -20,10 +32,13 @@
             <img src="" alt="">
         </div>
         <div class="frm-contato" style="display: flex; justify-content: center; align-items: center; width: 800px; height: 500px; background: #b8b6b68f;">
-            <form action="" method="post">
-                <input class="textBox" type="text" name="nome_completo" id="txt_nome">
-                <input class="textBox" type="number" name="telefone" id="txt_telefone">
-                <input class="textBox" type="email" name="email" id="txt_email">
+            <h2>Você poderá salvar vidas</h2>
+
+            <form action="#" method="post">
+                <input class="textBox" type="text" name="nome_completo" id="txt_nome" placeholder="Nome Completo" required autofocus>
+                <input class="textBox" type="tel" name="telefone" id="txt_telefone" placeholder="(xx) xxxxx-xxxx" required>
+                <input class="textBox" type="email" name="email" id="txt_email" placeholder="email@provedor.com.br" required>
+                <input type="button" value="Enviar">
             </form>
         </div>
     </div>
